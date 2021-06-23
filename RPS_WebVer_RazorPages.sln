@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPSWebVersionRazorPages", "RPSWebVersionRazorPages\RPSWebVersionRazorPages.csproj", "{9E51AC5E-ECCD-4DC4-816B-90A3E363B7C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPSWebVerTests", "RPSWebVerTests\RPSWebVerTests.csproj", "{164FCBD2-A953-45FF-97F6-4D4FCDCC56EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E51AC5E-ECCD-4DC4-816B-90A3E363B7C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E51AC5E-ECCD-4DC4-816B-90A3E363B7C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E51AC5E-ECCD-4DC4-816B-90A3E363B7C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E51AC5E-ECCD-4DC4-816B-90A3E363B7C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{164FCBD2-A953-45FF-97F6-4D4FCDCC56EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{164FCBD2-A953-45FF-97F6-4D4FCDCC56EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{164FCBD2-A953-45FF-97F6-4D4FCDCC56EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{164FCBD2-A953-45FF-97F6-4D4FCDCC56EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ED73179F-E597-4A75-BEB8-8E1B3CAABF55}
+	EndGlobalSection
+EndGlobal

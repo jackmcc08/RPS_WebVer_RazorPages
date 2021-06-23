@@ -1,0 +1,22 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<header id="header">
+    <h1>Welcome to the THUNDERDOME!</h1>
+</header>
+
+<h2>Choose number of players</h2>
+
+<form action="/number_players" method="post">
+    <input type="submit" name="players" value="One Player" id="player_buttons">
+    <input type="submit" name="players" value="Two Players" id="player_buttons">
+</form>
+
+
+@*<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>*@
