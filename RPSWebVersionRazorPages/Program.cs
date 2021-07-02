@@ -6,6 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using RPSWebVersionRazorPages.Models;
 
 namespace RPSWebVersionRazorPages
 {
@@ -13,6 +14,7 @@ namespace RPSWebVersionRazorPages
     {
         public static void Main(string[] args)
         {
+            string testString = "You can access values from the Program";
             CreateHostBuilder(args).Build().Run();
         }
 

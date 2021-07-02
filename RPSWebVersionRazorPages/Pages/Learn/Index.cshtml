@@ -1,0 +1,36 @@
+﻿@page "csharp/{number:int?}"
+@*This provides an override on the routing, if you don't put a / then it is an add on to the routing.'*@
+@model RPSWebVersionRazorPages.Pages.Learn.IndexModel
+@{
+}
+
+
+<header id="header">
+    <h1>Welcome to the Learning THUNDERDOME!</h1>
+
+</header>
+<h4>This is to contain the Async wording - can you find the secret routes?</h4>
+
+<form method="post">
+    <label for="TheWord">The word:</label>
+    <input asp-for="TheWord">
+    <button type="submit">Submit</button>
+</form>
+
+@if (Model.TheWord != null)
+{
+    <h4>The current word is @Model.TheWord</h4>
+}
+
+
+
+<h4>Head to a numbered page:</h4>
+<a asp-page="/Learn/Index" asp-route-number="1">Page 1</a>
+<a asp-page="/Learn/Index" asp-route-number="2">Page 2</a>
+<a asp-page="/Learn/Index" asp-route-number="3">Page 3</a>
+
+@if (Model.DisplaySpecNum)
+{
+    <br />
+    <h4>This is a numbered page - @Model.Number</h4>
+}

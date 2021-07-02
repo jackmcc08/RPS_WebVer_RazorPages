@@ -10,13 +10,35 @@
 
 <h2>Choose number of players</h2>
 
-<form action="/number_players" method="post">
+<form method="post">
     <input type="submit" name="players" value="One Player" id="player_buttons">
     <input type="submit" name="players" value="Two Players" id="player_buttons">
 </form>
 
+@if(Model.Players != null)
+{
+    <h3>You have selected @Model.Players</h3>
+}
 
-@*<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>*@
+<p></p>
+
+@*Putting in some code for learning from CodeCademy*@
+@*<p>@Model.TestInfo</p>
+<p>@ViewData["testString"]</p>
+
+<partial name="_TestPartial"/>*@
+
+@*Not sure how to display the string rather *@
+@*<form class="form-inline" method="get">
+    <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Preference</label>
+    <select asp-for="TestSelect" asp-items="Model.TestList" class="custom-select my-1 mr-sm-2"></select>
+    <button type="submit" class="btn btn-primary my-1">Submit</button>
+</form>
+
+<a asp-page="./learn/index">Click here to head to the C# learning index.</a>*@
+
+    @*<div class="text-center">
+            <h1 class="display-4">Welcome</h1>
+            <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+        </div>*@
+
